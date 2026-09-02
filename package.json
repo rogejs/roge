@@ -1,0 +1,20 @@
+{
+	"name": "roge",
+	"module": "index.ts",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"format": "bunx --bun @biomejs/biome format --write",
+		"dev": "bun run --watch ./src/index.ts"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.5.11",
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^7"
+	},
+	"dependencies": {
+		"picocolors": "^1.1.1"
+	}
+}
