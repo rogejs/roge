@@ -1,0 +1,1 @@
+export type PageRoute = Record<string, React.LazyExoticComponent<React.ComponentType>>
